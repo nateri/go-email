@@ -1,3 +1,3 @@
-module github.com/nateri/go-email
+module nateri/go-email
 
 go 1.18
