@@ -1,7 +1,7 @@
 # go-email
 
 ### Installation
-    $ go get github.com/veqryn/go-email/email
+    $ go get github.com/nateri/go-email/email
 
 ### Releases
 This is still a work in progress.
@@ -10,7 +10,7 @@ This is still a work in progress.
 
 Parse an existing email:
 
-    import "github.com/veqryn/go-email/email"
+    import "github.com/nateri/go-email/email"
     // reader = io.Reader with your raw email text
     // (or use: strings.NewReader(rawString) or bytes.NewReader(rawBytes))
     msg, err := email.ParseMessage(reader)
